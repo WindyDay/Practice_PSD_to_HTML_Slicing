@@ -226,6 +226,24 @@ nav ul li a:hover{
     color: #5d7730;
 
 }
+.clients-logo-block{
+    width: 100%;
+    padding-top: 40;
+    padding-bottom: 40;
+    border-top: 1px dashed #e5e5e5;
+    text-align: center;
+    background-color: white;
+}
+.center-logo{
+    display: inline-block;
+}
+.client-logo{
+    padding: 5 20;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
 footer{
     text-align: center;
     padding: 40 0 40 0;
