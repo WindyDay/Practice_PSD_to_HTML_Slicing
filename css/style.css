@@ -6,7 +6,7 @@ body{
     padding: 0;
     max-width: 100%;
     overflow-x: hidden;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 15px;
     color: #c2c2c2;
     background-color: #e8eff0;
@@ -29,6 +29,7 @@ header{
 
 .mainbody{
     background-color: #fcfcfc;
+    padding:  35px;
 }
 
 .header-left{
@@ -45,6 +46,7 @@ header{
     background-position: center top;
     background-size: 100% 10px;
     background-repeat: no-repeat;
+    border: 1px solid #e5e5e5;
 }
 
 .sign-up-lable{
@@ -60,8 +62,9 @@ header{
 .reg-email{
     width: 68.5%;
     height: 35px;
-    border: 1px solid gray;
+    border: 1px solid #e5e5e5;
     border-radius: 2px;
+    padding: 0 12 0 12;
 }
 .subscribe-btn{
     width: 28.5%;
@@ -108,6 +111,121 @@ nav ul li a:hover{
     border-left: none; 
 }
 
+.block-a1{
+    width: 65%;
+    float: left; 
+}
+.block-a1 hgroup{
+    color: #454545;
+    font-size: 31.5px;
+    font-weight: bold;
+}
+.product-image-container{
+    border: 1px solid #e5e5e5;
+
+}
+
+.block-a1 .product-image-container{
+    border: 1px solid #e5e5e5;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.product-image{
+    background-color: #ef5741; 
+    padding-top: 56.25%;
+    margin: 5px !important;
+
+}
+
+.product-detail{
+    font-size: 13px;
+    color: #8c8c8c;
+}
+
+.block-a2{
+    float: left; 
+    width: 30%;
+    margin-left: 40px;
+}
+
+.feature-deal-info{
+    background: url("../img/feature_deal_BG.png");
+    background-size: 100% 100%;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.block-a2-1{
+    color: #a7a7a7;
+    font-size: 17px;
+    border-bottom: 1px solid #f4f4f4;
+    padding-top: 27;
+    padding-bottom: 10;
+}
+
+.block-a2-2{
+    margin-top: 5;
+    border: 1px solid #f4f4f4;
+    padding-top: 15;
+    padding-bottom: 15;
+    color: #4b4b4b;
+}
+.block-a2-3{
+    margin-top: 5;
+    border: 1px solid #f4f4f4;
+    padding: 15;
+    color: #4b4b4b;
+    border-bottom: none;
+}
+#discount{
+    font-size: 17;
+}
+
+#discount-percent{
+    font-size: 70;
+    color:  #4b4b4b;
+}
+.block-a2-3-1, .block-a2-3-2 {
+    border-bottom: 1px dashed #f4f4f4;
+    font-size: 17;
+    color: #a7a7a7;
+    font-weight: normal;
+}
+.dealvalue-value, .you-save-value{
+    color: #4b4b4b;
+}
+.you-save, .you-save-value{
+    font-weight: bold;
+}
+.block-a2-3-2-1{
+    width: 50%; 
+    float: left;
+    padding-top: 15;
+    padding-bottom: 15;
+}
+.block-a2-like{
+    padding-top: 10;
+    padding-bottom: 10;
+}
+.like{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.buy-deal-btn{
+    width: 270px;
+    height: 70px;
+    background-image: url("../img/buy_btn_BG.png");
+    background-size: 100% 100%;
+    border-radius: 12px;
+    border: 1px solid #94af5b;
+    margin-top: 40px;
+    font-size: 25px;
+    color: #5d7730;
+
+}
 footer{
     text-align: center;
     padding: 40 0 40 0;
