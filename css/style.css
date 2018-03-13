@@ -32,14 +32,8 @@ header{
     padding:  35px;
 }
 
-.header-left{
-    float: left;
-    width: 50%;
-}
 
 .header-right{
-    float: left;
-    width: 50%;
     background-color: #fcfcfc;
     padding: 30 21 25 21;
     background-image: url("../img/Top stripe.png");
@@ -84,7 +78,7 @@ header{
 .logo{
     color: #4b4b4b;
     font-family: "Yellowtail";
-    font-size: 89px;
+    font-size: 89px !important;
 }
 nav ul{
     margin: 0;
