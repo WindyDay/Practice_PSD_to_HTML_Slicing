@@ -64,6 +64,7 @@ header{
     width: 28.5%;
     height: 35px;
     background-image: url("../img/regBG.png");
+    background-size: cover;
     border: 1px solid gray;
     border-radius: 5px;
     color: #525e6a;
